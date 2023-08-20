@@ -1,0 +1,9 @@
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.mapouter {
+  width: 90vw !important;
+  height: 50vh !important;
+}

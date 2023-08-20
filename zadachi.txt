@@ -1,0 +1,3 @@
+smeni cveta na sichki nesjta v header-a kakto Nachalo
+validanciq na kontakt formata
+galeriq - na click da se otvarq snimkata

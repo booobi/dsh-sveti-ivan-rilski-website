@@ -1,0 +1,47 @@
+.logo-container {
+    position: relative;
+    padding: 10px 10px;
+    margin: 0 0;
+    width: 100px;
+}
+
+.nav-wrapper {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -14px;
+    left: 0;
+}
+
+.dsh-bg-color {
+    background-color: #d8ddf3;
+}
+
+.dsh-color {
+    color: #599ac6 !important;
+}
+
+body {
+    background-color: #d8ddf3;
+}
+
+.nav-link:hover {
+    color: #2078b3 !important;
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: 500ms;
+}
+
+.container {
+    max-width: 96vw !important;
+}
+
+@media (max-width: 426px) {
+    #info-text {
+        padding: 1rem !important;
+        margin: 1rem !important;
+    }
+}
