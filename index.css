@@ -1,6 +1,27 @@
 .main-image {
     aspect-ratio: 2/1;
 }
+
+.footer-description {
+    max-width: 40vw;
+    color: black;
+}
+
+@media (max-width: 426px) {
+    .main-image {
+        aspect-ratio: initial;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-description {
+        max-width: initial !important;
+    }
+}
+
 .logo-container {
     position: relative;
     padding: 10px 10px;
