@@ -8,6 +8,7 @@
         <meta name="author" content="">
 
         <title>ДСХ Иван Рилски</title>
+        <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
 
         <!-- CSS FILES -->        
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -94,12 +95,12 @@ https://templatemo.com/tm-566-medic-care
             </div>
 
             <div>
-                <ul class="d-flex justify-content-between px-5">
-                    <li>телевизор</li>
-                    <li>достъп до система за бързо повикване на екипа</li>
-                    <li>безжичен интернет достъп</li>
-                    <li>персонализиран контрол на светлините</li>
-                    <li>собствен санитарен възел</li>
+                <ul class="d-flex justify-content-between px-5 badges">
+                    <li class="badge rounded-pill bg-info1 text-dark">телевизор</li>
+                    <li class="badge rounded-pill bg-info1 text-dark">достъп до система за бързо повикване на екипа</li>
+                    <li class="badge rounded-pill bg-info1 text-dark">безжичен интернет достъп</li>
+                    <li class="badge rounded-pill bg-info1 text-dark">персонализиран контрол на светлините</li>
+                    <li class="badge rounded-pill bg-info1 text-dark">собствен санитарен възел</li>
                 </ul>
             </div>
 
@@ -200,3 +201,20 @@ https://templatemo.com/tm-566-medic-care
 -->
     </body>
 </html>
+
+<style>
+    .bg-info1 {
+        background-color: #599ac6;
+    }
+
+    @media (max-width: 500px) {
+        .badges {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .bg-info1 {
+            text-wrap: wrap !important;
+        }
+    }
+</style>
